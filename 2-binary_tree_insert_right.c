@@ -5,7 +5,7 @@
  * @parent: pointer to node to insert child.
  * @value: value inserted to the add.
  *
- * Return: node_right.
+ * Return: node_right or null on failure.
  */
 
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
